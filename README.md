@@ -4,7 +4,6 @@ Script ini dibuat untuk mempermudah proses pembuatan akun secara otomatis. Scrip
 - Menghasilkan username acak dengan variasi huruf besar dan kecil.
 - Menghasilkan email acak berbasis template yang diberikan.
 - Menyimpan akun dan informasi penting ke dalam file `.txt`.
-- Menampilkan ASCII art dan teks dengan efek warna di terminal (menggunakan `rich` dan `colorama`).
 
 # Cara Menjalankan:
 ~ git clone https://github.com/dapsamgraphics/RINNEGEN/
