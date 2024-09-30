@@ -138,7 +138,7 @@ def main():
     display_title()  # Menampilkan judul dan deskripsi setelah ASCII art
 
     base_username = validate_input("Silahkan masukkan username yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchiha" + Style.RESET_ALL + ": ")
-    base_email = validate_email("Silahkan masukkan email yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchiha@gmail.com/madarauchiha@hotmail.com/madarauchiha@uchiha.com" + Style.RESET_ALL + ": ")
+    base_email = validate_email("Silahkan masukkan email yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchiha@gmail.com/madarauchiha@uchiha.com" + Style.RESET_ALL + ": ")
     gmail_password = validate_input("Silahkan masukkan password gmail yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchihalo" + Style.RESET_ALL + ": ")
     telegram_password = validate_input("Silahkan masukkan password telegram yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchihalo" + Style.RESET_ALL + ": ")
     file_name = validate_input("Silahkan kasih nama untuk file.txt nya. " + Fore.WHITE + "contoh: madarauchiha.txt" + Style.RESET_ALL + ": ")
