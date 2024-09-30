@@ -16,9 +16,9 @@ Script ini dibuat untuk mempermudah proses pembuatan akun secara otomatis. Scrip
 ~ py rinnegen.py
   
 # Contoh Input:
-Silahkan masukkan username yang ingin kamu buat: madarauchiha
-Silahkan masukkan email yang ingin kamu buat: madarauchiha@gmail.com
-Silahkan masukkan password gmail yang ingin kamu buat: madarauchiha
-Silahkan masukkan password telegram yang ingin kamu buat: madarauchiha
-Silahkan kasih nama untuk file.txt nya: madarauchiha.txt
-Masukkan jumlah akun yang ingin dibuat: 1000
+- Silahkan masukkan username yang ingin kamu buat: madarauchiha
+- Silahkan masukkan email yang ingin kamu buat: madarauchiha@gmail.com
+- Silahkan masukkan password gmail yang ingin kamu buat: madarauchiha
+- Silahkan masukkan password telegram yang ingin kamu buat: madarauchiha
+- Silahkan kasih nama untuk file.txt nya: madarauchiha.txt
+- Masukkan jumlah akun yang ingin dibuat: 1000
