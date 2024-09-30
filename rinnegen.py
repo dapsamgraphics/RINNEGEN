@@ -73,7 +73,7 @@ def display_title():
 """,
         style="bold white"
     )
-    subtitle = Text("INI BUKAN SCRIPT AUTO CREATE TELE BG KERIPTOOHH, TAPI CINI CUMAN GENERATE USERNAME, GMAIL, PASSWORD GMAIL, DAN PASSWORD TELE. JADI KALO ENTE BUAT AKUN TELEGRAM YA..TETEP MANUAL, INI BIAR AGA MEMPERMUDAH AJA BIAR TINGGAL COPY PASTE", style="bold yellow")
+    subtitle = Text("INI BUKAN SCRIPT AUTO CREATE TELE BG KERIPTOOHH, TAPI CINI CUMAN GENERATE USERNAME, EMAIL, PASSWORD EMAIL, DAN PASSWORD TELE. JADI KALO ENTE BUAT AKUN TELEGRAM YA..TETEP MANUAL, INI BIAR AGA MEMPERMUDAH AJA BIAR TINGGAL COPY PASTE", style="bold yellow")
     description = Text("kalo pas buat gmail kena req otp yaudah bg sabar aja:v", style="white")
     
     # Menampilkan title dan subtitle tanpa border
@@ -137,11 +137,11 @@ def main():
     display_ascii_art()  # Menampilkan ASCII art tanpa border
     display_title()  # Menampilkan judul dan deskripsi setelah ASCII art
 
-    base_username = validate_input("Silahkan masukkan username yang ingin kamu buat. " + Fore.WHITE + "contoh: @madarauchiha" + Style.RESET_ALL + ": ")
-    base_email = validate_email("Silahkan masukkan email yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchiha@gmail.com" + Style.RESET_ALL + ": ")
+    base_username = validate_input("Silahkan masukkan username yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchiha" + Style.RESET_ALL + ": ")
+    base_email = validate_email("Silahkan masukkan email yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchiha@gmail.com/madarauchiha@hotmail.com/madarauchiha@uchiha.com" + Style.RESET_ALL + ": ")
     gmail_password = validate_input("Silahkan masukkan password gmail yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchihalo" + Style.RESET_ALL + ": ")
     telegram_password = validate_input("Silahkan masukkan password telegram yang ingin kamu buat. " + Fore.WHITE + "contoh: madarauchihalo" + Style.RESET_ALL + ": ")
-    file_name = validate_input("Silahkan kasih nama untuk file.txt nya. " + Fore.WHITE + "contoh: rajahkeripto1.txt" + Style.RESET_ALL + ": ")
+    file_name = validate_input("Silahkan kasih nama untuk file.txt nya. " + Fore.WHITE + "contoh: madarauchiha.txt" + Style.RESET_ALL + ": ")
 
     jumlah_akun = validate_int_input("Masukkan jumlah akun yang ingin dibuat: ")
 
