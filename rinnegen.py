@@ -73,7 +73,7 @@ def display_title():
 """,
         style="bold white"
     )
-    subtitle = Text("INI BUKAN SCRIPT AUTO CREATE TELE BG KERIPTOOHH, TAPI CINI CUMAN GENERATE USERNAME, EMAIL, PASSWORD EMAIL, DAN PASSWORD TELE. JADI KALO ENTE BUAT AKUN TELEGRAM YA..TETEP MANUAL, INI BIAR AGA MEMPERMUDAH AJA BIAR TINGGAL COPY PASTE", style="bold yellow")
+    subtitle = Text("INI BUKAN SCRIPT AUTO CREATE TELE BG KERIPTOOHH, TAPI CINI CUMAN GENERATE USERNAME TELE & EMAIL. JADI KALO ENTE BUAT AKUN TELEGRAM YA..TETEP MANUAL, INI BIAR AGA MEMPERMUDAH AJA BIAR TINGGAL COPY PASTE", style="bold yellow")
     description = Text("kalo pas buat gmail kena req otp yaudah bg sabar aja:v", style="white")
     
     # Menampilkan title dan subtitle tanpa border
