@@ -8,8 +8,11 @@ Script ini dibuat untuk mempermudah proses pembuatan akun secara otomatis. Scrip
 
 # Cara Menjalankan:
 ~ git clone https://github.com/dapsamgraphics/RINNEGEN/
+
 ~ cd RINNEGEN
+
 ~ pip install -r requirements.txt
+
 ~ py rinnegen.py
   
 # Contoh Input:
